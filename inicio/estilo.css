@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu {
+    height: 7vh;
+    background-color: #162028;
+    display: flex;
+    /*justify-content: center;*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+
+}
+
+.options {
+    display: flex;
+  
+    width: 100%;
+}
+
+.logo {
+    margin-right: auto;
+    display: flex;
+    
+}
+
+.options li {
+    display: inline;
+    margin-left: 20px;
+    color: aliceblue;
+    text-align: start;
+    font-size: 1.4em;
+    justify-content: flex-end;
+}
+
+/*.options li{
+    display: inline;
+    color: aliceblue;
+    text-align: start;
+    font-size: 1.85em;
+    
+    
+}*/
+
+.options li a {
+    color: #425564;
+    text-decoration: none;
+    display:inline ;
+    text-align:left;
+} 
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/*.gallery-card {
+    display: flex;
+    flex-direction: row;
+    
+} */
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* ou use space-between, space-evenly, etc., conforme necessário */
+    align-items: center;
+}
+
+.gallery-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px; /* ajuste conforme necessário */
+}
+
+.gallery-card img {
+    max-width: 100%; /* ajuste conforme necessário */
+    height: auto;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+    margin: 1.5vh;
+    margin-top: 5em;  
+
+}
+
+.container2 h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.container2 p {
+    font-size: 1.5em;
+    margin-top: 0.80em;
+}
+
+.container3 {
+    background: url(imagens/bg_detalhe.png); 
+    color: #6f8597;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 50em;
+    margin-top: 1.5em;
+
+    }
+
+.container3 h1 {
+    text-align: center;
+    margin-top: 5em;
+}
+
+.container3 p {
+    text-align: center;
+    margin-top: 0.80em;
+}
+
+footer{
+    background-color: #6f8597;
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+}
